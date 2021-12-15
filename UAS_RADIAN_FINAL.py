@@ -13,7 +13,7 @@ col1,col2 = st.columns([10,1])
 image = Image.open('gambar1.png')
 with title_container:
     with col1:
-        st.markdown("<p style="font-family: sans-serif; font-size: 20px; text-align: center;"><b>Johanes Radian Saputra/12220134</b></p>", unsafe_allow_html=True)
+        st.markdown('<p style="font-family: sans-serif; font-size: 20px; text-align: center;"><b>Johanes Radian Saputra/12220134</b></p>', unsafe_allow_html=True)
         st.markdown('<h2>Data Produksi Minyak Mentah dari Berbagai Negara</h2>',
                     unsafe_allow_html=True)
     with col2:
