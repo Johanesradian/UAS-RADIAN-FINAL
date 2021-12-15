@@ -11,6 +11,7 @@ st.set_page_config(page_title='Survey Minyak Mentah',
 title_container = st.container()
 col1,col2 = st.columns([10,1])
 image = Image.open('gambar1.png')
+st.title ("Johanes Radian Saputra/1220134")
 with title_container:
     with col1:
         st.markdown('<h2>Data Produksi Minyak Mentah dari Berbagai Negara</h2>',
