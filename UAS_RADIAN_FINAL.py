@@ -11,13 +11,13 @@ st.set_page_config(page_title='Survey Minyak Mentah',
 title_container = st.container()
 col1,col2 = st.columns([10,1])
 image = Image.open('gambar1.png')
-st.title ("Johanes Radian Saputra/1220134")
 with title_container:
     with col1:
+        st.markdown(<p style="font-family: sans-serif; font-size: 20px; text-align: center;"><b>Johanes Radian Saputra/12220134</b></p>, unsafe_allow_html=True)
         st.markdown('<h2>Data Produksi Minyak Mentah dari Berbagai Negara</h2>',
                     unsafe_allow_html=True)
     with col2:
-        st.image(image,width=64)
+        st.image(image,width=120)
         
 
 csv_file = 'produksi_minyak_mentah.csv'
