@@ -17,7 +17,7 @@ with title_container:
         st.markdown('<h2>Data Produksi Minyak Mentah dari Berbagai Negara</h2>',
                     unsafe_allow_html=True)
     with col2:
-        st.image(image,width=120)
+        st.image(image,width=240)
         
 
 csv_file = 'produksi_minyak_mentah.csv'
