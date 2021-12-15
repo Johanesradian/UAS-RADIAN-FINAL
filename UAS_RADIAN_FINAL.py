@@ -1,3 +1,7 @@
+#Nama   : Johanes Radian Saputra
+#NIM    : 12220134
+#Judul  : Tugas Besar Pemrograman Komputer (UAS)
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
